@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <fragment
+        android:id="@+id/autocompleteEditFieldDeparture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="de.halfreal.fragment.AutoCompleteEditField"
+        tools:layout="@layout/fragment_autocomplete" />
+
+    <fragment
+        android:id="@+id/autocompleteEditFieldDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="de.halfreal.fragment.AutoCompleteEditField"
+        tools:layout="@layout/fragment_autocomplete" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         >
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:ems="10"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/buttonPickDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/search_button_date" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonStartSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/search" />
+
+</LinearLayout>

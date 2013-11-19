@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GoEuro Search</string>
+    <string name="hello">Hello goeuro!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="defaultHint">Start Typing</string>
+    <string name="search">Search</string>
+    <string name="dialog_title_not_available">Not available</string>
+    <string name="dialog_message_not_available">Sorry. The serach is yet not available</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="search_hint_departure">Departure</string>
+    <string name="search_hint_destination">Destination</string>
+    <string name="search_button_date">Date</string>
+
+</resources>
